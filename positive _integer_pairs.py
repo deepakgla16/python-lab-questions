@@ -1,7 +1,0 @@
-p = int(input())
-x = int(input())
-
-for i in range(p//2+1):
-    j = p-i
-    if i^j == x:
-        print(i,j)
