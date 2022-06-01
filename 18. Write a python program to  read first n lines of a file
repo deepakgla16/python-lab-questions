@@ -1,0 +1,4 @@
+with open("Practice.txt", "r") as f:
+    n = int(input('Enter the nth number of line: '))
+    for line in range(n):
+        print(f.readline())
