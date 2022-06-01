@@ -1,0 +1,4 @@
+f = open('Practice.txt', 'w')
+f.write("Deepak\n")
+f.write("B.Tech\n")
+f.close()
