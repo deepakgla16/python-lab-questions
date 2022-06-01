@@ -1,0 +1,11 @@
+with open("Pattern.txt", "w") as f:
+    n = int(input("Enter the number of rows: "))
+
+    for i in range(n + 1):
+        for j in range(n + 1):
+            if (i == 0 or i == n) or (j == n or j == 0):
+                print("*", end="", file=f)
+
+            else:
+                print(" ", end="", file=f)
+        print(file=f)
