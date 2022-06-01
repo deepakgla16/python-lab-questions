@@ -1,0 +1,6 @@
+setc = {"Red", "Green", "Black", "White"}
+print("Before removing all elements: ", end= "")
+print(setc)
+setc.clear()
+print("After removing all elements: ",end= "")
+print(setc)
