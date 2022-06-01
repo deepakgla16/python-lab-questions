@@ -1,0 +1,10 @@
+with open("Pattern.txt", "w") as f:
+    lst = [1, 2, 4, 7, 45, 23, 54]
+
+    for i in lst:
+        print(i, end=" ", file=f)
+
+    lst.sort()
+    print(file=f)
+    for i in lst:
+        print(i, end=" ", file=f)
