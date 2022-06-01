@@ -1,0 +1,3 @@
+with open("Practice1.txt") as f, open("Last.txt", 'w') as g:
+    for s in f.readlines():
+        g.write(s.strip()+" ")
